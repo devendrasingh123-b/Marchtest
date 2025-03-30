@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+#header{
+
+display: grid;
+grid-template-columns: 2.4fr .8fr 1fr ;
+box-sizing: border-box;
+box-shadow: 1px 1px 10px blue;
+padding: 10px;
+
+
+}
+
+
+#headerfirstdiv{
+
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+box-sizing: border-box;
+
+
+}
+
+
+#headerfirstdiv a{
+
+text-decoration: none;
+color: black;
+box-sizing: border-box;
+
+
+}
+
+#headerfirstdiv a:hover{
+    background-color: rgba(116, 107, 107, 0.382);
+    padding: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#headerImg{
+    height: 50px;
+    width: 50px;
+}
+
+
+#headerThreediv{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+#headerThreediv button{
+
+height: 30px;
+width: 80px;
+border-radius: 8px;
+font-weight: bold;
+
+
+}
+
+#headerThreediv button:hover{
+
+
+    background-color: rgb(191, 191, 89);
+
+}
+
+
+#headerThreedivthree{
+    background-color: black;
+    color: white;
+}
+
+
+#headercheat{
+    display: none;
+}
+
+
+
+@media (max-width:800px) {
+    
+    #headercheat{
+    display:inline ;
+}
+
+#headerThreediv button{
+    display: none;
+}
+
+#headerfirstdiv a{
+    display: none;
+}
+
+
+}
+
+
+/* body part start */
+
+
+div#mainbody{
+
+background-color: white;
+padding: 30px;
+width: 100%;
+}
+
+
+#mainbodyfirstdiv{
+
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: 1px solid blue;
+margin: auto;
+width: 60%;
+height: 700px;
+padding: 30px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+border-radius: 40px;
+
+}
+
+
+#bodybutton{
+    display: flex;
+    justify-content: space-around;
+}
+#bodybutton button{
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+#bodybutton button:hover{
+background-color: rgb(133, 77, 133);
+
+}
+/* #bodyimagdiv{
+
+    align-items: center;
+}
+
+#bodyimg{
+    height: 50px;
+    align-items: center;
+
+} */
+
+
+
+ #firstsection{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ #secondsection{
+    width: 100%;
+
+ }
+
+ #secondsection>div{
+   display: flex;
+   justify-content: center;
+ }
+
+
+
+
+ #fourdivimag{
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+#fiveimag{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* footer */
+
+
+
+#footer{
+
+width: 100%;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr .25fr ;
+background-color: rgb(250, 250, 250);
+
+
+}
+
+#footerfirst{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   
+}
+
+
+#footerfirst a{
+    text-decoration: none;
+}
+
+
+#lastbutton{
+    margin: 20px;
+    background-color: yellow;
+    display: inline-block;
+}
+</style>
+
+
+</head>
+<body>
+
+<div id="header">
+    
+
+    <div id="headerfirstdiv">
+
+<img src="image/download.png" alt="" id="headerImg">
+
+
+<div><a href="" target="_blank">product   <i class="fa-solid fa-caret-down"></i></a></div>
+
+<div><a href="" target="_blank">Solution  <i class="fa-solid fa-caret-down"></i> </a></div>
+
+<div><a href="" target="_blank">Recourse  <i class="fa-solid fa-caret-down"></i> </a></div>
+
+
+<a href="" target="_blank">Enterprise</a>
+
+<a href="" target="_parent">pricing</a>
+
+
+    </div>
+
+    <div></div>
+
+    <div id="headerThreediv">
+
+        <button>Log In</button>
+        <button>Contact</button>
+        <button id="headerThreedivthree">Sing Up</button>
+
+        <div id="headercheat"><i class="fa-solid fa-list"></i></div>
+    </div>
+
+
+
+</div>
+
+
+<!-- header end -->
+
+
+
+
+
+<!-- bodypartstart -->
+
+<div id="mainbody">
+
+<div id="mainbodyfirstdiv">
+
+<div>
+
+<div> <h1>Your complete platform for the web.</h1></div>
+
+<div>
+
+    <p>Vercel provides the developer tools and cloud infrastructure </p>
+
+    <p>to build, scale, and secure a faster, more personalized web</p>
+
+</div>
+
+
+<div id="bodybutton">
+
+<button> Start Deploying </button>
+
+<button>Get A Demo</button>
+    
+</div>
+<!-- <div id="bodyimagdiv"><img src="image/pngimg.com - triangle_PNG102.png" id="bodyimg" alt=""></div>
+
+</div> -->
+
+
+
+<div></div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+<section id="firstsection">
+
+    <h3>Develop with your favorite tools  Launch globally, instantly  Keep pushing </h3>
+
+</section>
+
+
+
+<section id="secondsection">
+
+    <div>
+        <img src="image/Screenshot (145).png" alt=""></div>
+
+
+
+</section>
+    
+
+
+<div id="fourdivimag">
+
+    <img src="image/Screenshot (143).png" alt="">
+
+
+</div>
+
+
+
+<div id="fiveimag">
+
+    <img src="image/Screenshot (144).png" alt="">
+
+</div>
+
+
+
+<!-- <footer></footer> -->
+
+
+<div id="footer">
+
+<div id="footerfirst">
+    <h4>Products</h4>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+
+</div>
+<div id="footerfirst">
+    <h4>Resources</h4>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+
+</div>
+<div id="footerfirst">
+    <h4>Company</h4>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+
+</div>
+<div id="footerfirst">
+    <h4>Social</h4>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+    <a href="">Ai</a>
+    <a href="">Enterprise</a>
+    <a href="">Fluid Compute</a>
+
+</div>
+
+
+
+</div>
+
+<div id="lastbutton"><button><a href="">All Systems Normal</a></button></div>
+
+</body>
+</html>
+<script src="index.js"></script>
